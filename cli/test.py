@@ -4,7 +4,7 @@ from datetime import datetime
 from cli.date import get_days_difference, get_date_obj
 
 
-class MyTest(unittest.TestCase):
+class DateCalculatorTest(unittest.TestCase):
     def setUp(self):
         self.date_test_data = [{'start_date': '02/06/1983', 'end_date': '22/06/1983'},
                                {'start_date': '04/07/1984', 'end_date': '25/12/1984'},
