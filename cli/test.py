@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime
 
-from cli.date import get_days_difference, get_date_obj
+from date import get_days_difference, get_date_obj
 
 
 class DateCalculatorTest(unittest.TestCase):
